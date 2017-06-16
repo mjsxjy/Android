@@ -64,6 +64,17 @@ public class FirstActivity extends AppCompatActivity {
 
         });
 
+        Button button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(FirstActivity.this, "启动第三个活动！",
+                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(FirstActivity.this, ThirdActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
