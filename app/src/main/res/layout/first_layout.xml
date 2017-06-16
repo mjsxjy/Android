@@ -23,11 +23,19 @@
     <ImageView
         android:id="@+id/image1"
         android:layout_width="350dp"
-        android:layout_height="378dp"
+        android:layout_height="278dp"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:background="#FEF"
         android:padding="5dp"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:text="第三个活动"
+        />
 
 </LinearLayout>
